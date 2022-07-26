@@ -7,6 +7,10 @@ Safeweg is an app coded for safest route embedded with accident detection. Crime
 and all kind of viscious things . That's where Safe comes into play. This application has a blend of unique features like the safest route to help commute safely, even the
 celebrities, travellers, money loading vehicles, and many more. It plummets the risk of unsafe travelling to a greater extent. For instance, most rape cases in India 
 are committed on road. The USA has high gunshots deaths. These localities can be avoided while travelling using SafeWeg by navigating them through the safest route. 
+
+How we detect Safest Route ?
+Well the algorithm that we designed for calculating safe weg can be summarized as , for example there exsist 2 paths from point A to B , one path has Hospitals , Ngo's, Police statiosn in the route & the other one doesn't has that . We are calculating a cummulative sum of such places . Hospitals , police stations will contribute to a positive score & places such as funeral frounds,forest etc add up to a neagtive score . The sum for each part will be calculated & hence each route between point A and B will be given a colour code Where Red displays not safe , Orange displays Lightly safe & green depicts safest route to travel .
+
 There are many accident detection hardware available on this planet, but none like our software-based systems. This makes it cheap for the common man who drives 
 a low-priced vehicle that is not embedded with this much-needed feature. You need not own a Telsa for that! SafeWeg comes into play. Followed by gyroscopic analysis and 
 location tracking, the desired results are achievable. People are reluctant to buy expensive hardware for such use cases.
